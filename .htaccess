@@ -3,6 +3,10 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+#    order deny,allow
+#    deny from all
+#    allow from 80.89.75.32, 213.180.109.39
+
     RewriteEngine On
 
     # Handle Authorization Header
